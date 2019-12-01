@@ -1,10 +1,10 @@
-#img2{
-    background:linear-gradient(217deg,rgba(255,0,0, 0,8), rgba(255,0,0,0)70,71%)  }
-
-#img3{
-    background:linear-gradient(127deg,black,black 70,71%)}
-
-#img4{    background:linear-gradient(336deg,rgba(0,0255, 0,8),rgba(0,0255,0) 70,71%);  }
+body{
+    background-image:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+}
 img {
     width: 100%;
 }
@@ -13,5 +13,35 @@ img {
     text-align: center;
 }
 #test {
-    color:black;
+    color:white;
+}
+.navbar-link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-link:hover{
+    color: red;
+}
+
+#logo
+{
+    width: 50px;
+    height: 50px;
+    
+}
+ul { 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.navbar{
+    display: flex;
+}
+h2{
+    color: white;
 }
