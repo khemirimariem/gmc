@@ -1,39 +1,56 @@
-<html> 
-     <head> 
+<html>
 
-     </head>
-      <body>
-    <ul>
-       <a href="index.html">Home</a> <br>
-       <a href="courses.html">Courses</a> <br>
-       <a href="contact.html">Contact</a> <br>
-    </ul>
+<head>
+      <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <center>
-            <h2>Courses</h2> 
+<body>
+      <div class="navbar">
+            <img src="res/logo.png" alt="Logo_page" title="Accueil" id="logo">
+            <ul>
+                <a class="navbar-link" href="index.html">Home</a>
+                <a class="navbar-link" href="courses.html">Courses</a>
+                <a class="navbar-link" href="contact.html">Contact</a>
+                
+            </ul>
+        </div>
+        
 
-            <h4>Feedback</h4>
-           
-          <form> 
-            
-    <button>B</button> <button>I</button> <button>Underlane</button>
+   <center>
       
-         <select>
-            <option> 20px </option>
-            <option> 30px </option>
-            <option> 40px </option>
-          </select>
+      <div>
+            <img class="cour" src="res/img5.png">
+            <h1 class="centered">Courses</h1>
+        </div> 
+      <h2>Feedback</h2>
 
-         <select>
-            <option> Arial </option>
-            <option> Verdana </option>
-            <option> Genava </option>
-         </select> 
-     </form> 
-         
-      <textarea cols="50" rows="20"></textarea>
-    
-      </center> 
+<div>
+      <button  onclick="bold()">B</button>
+      <button  onclick="italic()">I</button>
+      <button  onclick="underline()">Underline</button>
 
-      </body>
-</html> 
+      <select onchange="fontsize()" id="fonts">
+           
+         <option> 20px </option>
+         <option> 30px </option>
+         <option> 40px </option>
+     
+      </select>
+
+      <select onchange="fontFamily()" id="fontss">
+         <option>Arial</option>
+         <option>Verdana</option>
+         <option>Genava</option>
+      </select>
+   </div>
+   <br>
+   <div>
+      <textarea style="width: 500px; height: 300px" cols="50" rows="20" id="text"></textarea>
+   </div>
+
+
+   </center>
+
+</body>
+<script src="js/main.js"></script>
+</html>

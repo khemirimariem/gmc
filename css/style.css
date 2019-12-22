@@ -45,3 +45,17 @@ ul {
 h2{
     color: white;
 }
+
+.cour {
+    height:550px;
+    width : 100%
+}
+.centered {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left:40%;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+  }
