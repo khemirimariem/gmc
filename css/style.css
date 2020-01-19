@@ -8,7 +8,10 @@ Linear-gradient(127deg, black, black 70.71%),
 img {
     width: 100%;
 }
-
+#Big{ 
+    flex-direction: column;
+    
+} 
 .vid {
     text-align: center;
 }
@@ -19,7 +22,7 @@ img {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navbar-link:hover{
@@ -59,3 +62,210 @@ h2{
     left:40%;
     text-shadow: 5px 2px rgb(12, 11, 11);
   }
+.course1{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image: url('../res/jquery.img/a.png');
+    
+
+}
+.course1:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses1{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses1Hover {
+    opacity : 1
+}
+
+
+.course2{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image: url('../res/jquery.img/b.png');
+    
+}
+.course2:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses2{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses2Hover {
+    opacity : 1
+}
+
+
+.course3{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image: url('../res/jquery.img/c.png');
+    
+}
+.course3:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses3{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses3Hover {
+    opacity : 1
+}
+
+
+
+.course4{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block; 
+    background-image: url('../res/jquery.img/d.png');
+}
+  
+.course4:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses4{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses4Hover {
+    opacity : 1
+}
+
+
+.course5{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block; 
+    background-image: url('../res/jquery.img/e.png');}
+  
+.course5:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses5{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses5Hover {
+    opacity : 1
+}
+
+
+.course6{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image: url('../res/jquery.img/f.png');
+}
+.course6:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses6{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses6Hover {
+    opacity : 1
+}
+
+
+.course7{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+
+    background-image: url('../res/jquery.img/g.png');
+    
+}
+.course7:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses7{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses7Hover {
+    opacity : 1
+}
+
+.course8{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image: url('../res/jquery.img/h.png');
+    
+}
+.course8:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses8{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses8Hover {
+    opacity : 1
+}
+
+
+.course9{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image: url('../res/jquery.img/i.png');
+}
+.course9:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses9{
+    margin-top:120px;
+    opacity:0;
+}
+
+.btnCourses9Hover {
+    opacity : 1
+}
+
+
+#fade{
+    display:none;
+}
+
+
+
+.images {
+    display: inline-flex;
+    padding-top: 50px;
+}

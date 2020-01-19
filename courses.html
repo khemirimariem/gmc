@@ -1,56 +1,125 @@
 <html>
 
 <head>
-      <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 
 <body>
-      <div class="navbar">
-            <img src="res/logo.png" alt="Logo_page" title="Accueil" id="logo">
-            <ul>
-                <a class="navbar-link" href="index.html">Home</a>
-                <a class="navbar-link" href="courses.html">Courses</a>
-                <a class="navbar-link" href="contact.html">Contact</a>
-                
-            </ul>
-        </div>
-        
+
+   <div class="navbar">
+      <img src="res/logo.png" alt="Logo_page" title="Accueil" id="logo">
+      <ul>
+         <a class="navbar-link" href="index.html">HOME</a>
+         <a class="navbar-link" href="courses.html">COURSES</a>
+         <a class="navbar-link" href="contact.html">CONTACT</a>
+
+      </ul>
+   </div>
+
 
    <center>
-      
+
       <div>
-            <img class="cour" src="res/img5.png">
-            <h1 class="centered">Courses</h1>
-        </div> 
+         <img class="cour" src="res/img5.png">
+         <h1 class="centered">Courses</h1>
+      </div>
+
+      <br>
+      <br>
+   
+   <div id="Big">
+      <div>    <div class="course1" onclick="modalShow()">
+         <button class="btnCourses1">View more</button>
+          </div>
+           
+          <div  class="course2" onclick="modalShow()" >
+          <button class="btnCourses2">View more</button>
+            </div>
+            <div
+            class="course3" onclick="modalShow()" >
+                <button class="btnCourses3">View more</button>
+               </div></div>
+   
+       <div>
+<br>
+         <div class="course4" onclick="modalShow()">
+            <button class="btnCourses4">View more</button>
+            </div>
+
+           <div class="course5" onclick="modalShow()">
+           <button class="btnCourses5">View more</button>
+           </div>
+
+          <div class="course6" onclick="modalShow()">
+          <button class="btnCourses6">View more</button> 
+         </div>
+       </div>
+           <br>
+       <div>
+
+         <div class="course7" onclick="modalShow()">
+            <button class="btnCourses7">View more</button>
+            </div>
+
+           <div class="course8" onclick="modalShow()">
+           <button class="btnCourses8">View more</button>
+           </div>
+
+          <div class="course9" onclick="modalShow()">
+          <button class="btnCourses9">View more</button> 
+         </div>
+       </div>
+           
+      
+
+     
+  </div>
+
+        <br>
+     
+
+      <br>
+
+
       <h2>Feedback</h2>
 
-<div>
-      <button  onclick="bold()">B</button>
-      <button  onclick="italic()">I</button>
-      <button  onclick="underline()">Underline</button>
+      <div>
+         <button onclick="bold()">B</button>
+         <button onclick="italic()">I</button>
+         <button onclick="underline()">Underline</button>
 
-      <select onchange="fontsize()" id="fonts">
-           
-         <option> 20px </option>
-         <option> 30px </option>
-         <option> 40px </option>
-     
-      </select>
+         <select onchange="fontsize()" id="fonts">
 
-      <select onchange="fontFamily()" id="fontss">
-         <option>Arial</option>
-         <option>Verdana</option>
-         <option>Genava</option>
-      </select>
-   </div>
-   <br>
-   <div>
-      <textarea style="width: 500px; height: 300px" cols="50" rows="20" id="text"></textarea>
-   </div>
+            <option> 20px </option>
+            <option> 30px </option>
+            <option> 40px </option>
 
+         </select>
+
+         <select onchange="fontFamily()" id="fontss">
+            <option>Arial</option>
+            <option>Verdana</option>
+            <option>Genava</option>
+         </select>
+      </div>
+      <br>
+      <div>
+         <textarea style="width: 500px; height: 300px" cols="50" rows="20" id="text"></textarea>
+      </div>
 
    </center>
-
+   </div>
+   <div id="ex1" class="modal">
+      <p>This is GoMyCode Track. <br>
+         Each track has its own goal. <br>
+         By adopting this track, you chose your own goal.</p>
+      <a href="#" rel="modal:close">Close</a>
+   </div>
 </body>
 <script src="js/main.js"></script>
+<script src="js/editor.js"></script>
+
 </html>
